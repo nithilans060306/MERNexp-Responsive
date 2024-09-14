@@ -436,7 +436,6 @@ progress::-moz-progress-bar {
 @media only screen and (max-width: 430px){
     .fifth .proj{
         flex-basis: 100%;
-        /* width: 270px; */
     }
 }
 
@@ -592,5 +591,8 @@ iframe {
 @media only screen and (max-width: 430px) {
     .second, .fourth .top, .fifth, iframe{
         margin-top: 0;
+    }
+    .fifth img:hover {
+        transform: none;
     }
 }
